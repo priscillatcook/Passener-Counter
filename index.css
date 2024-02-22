@@ -1,0 +1,152 @@
+#title-msg {
+font-family: "Raleway";
+font-optical-sizing: auto;
+font-size: 100px; 
+font-weight: 200; 
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+--glow-color: rgb(194, 194, 194);
+ --glow-spread-color: rgba(100, 100, 100, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(141, 141, 141),;
+ 
+ 
+ 
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+}
+
+#title {
+    height: 110px;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+
+
+    
+}
+
+body {
+    background-image: url("station.jpg");
+    background-size: cover;
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+
+    text-align: center;
+}
+#content {
+    margin: auto;
+    padding-top: 25px;
+    height: 350px;
+    width: 600px;
+    border: white 2px solid; 
+    background-color: rgba(151, 151, 151, 0.801);
+    
+    
+}
+
+#line-1 {
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: white; /*changes the font color to white */
+    font-size: 50px;
+
+}
+
+h2 {
+   font-size: 50px; 
+   margin-top: 0;
+   margin-bottom: 25px;
+   font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: white; /*changes the font color to white */
+    font-size: 75px;
+
+
+}
+
+p {
+    color: white; /*changes the font color to white */
+    font-size: 20px;
+
+}
+
+button {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white; /*changes the font color to white */
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: "Raleway";
+    font-optical-sizing: auto;
+    font-weight: 200;
+        letter-spacing: 4px;
+        transition: 0.5s;
+        transition-property: box-shadow;
+        box-shadow: 0 0 25px rgb(0,140,255);
+      
+      
+     
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+#increment-btn {
+    background: darkred;
+    margin-right: 10px;
+    box-shadow: 0 0 25px darkred;
+    
+}
+#increment-btn:hover {
+    box-shadow: 0 0 5px darkred,
+                0 0 25px darkred,
+                0 0 50px darkred,
+                0 0 100px darkred;
+}
+
+#save-btn {
+    background: darkgreen; 
+    margin-left: 10px;
+    box-shadow: 0 0 25px darkgreen;
+
+}
+#save-btn:hover {
+    box-shadow: 0 0 5px darkgreen,
+                0 0 25px darkgreen,
+                0 0 50px darkgreen,
+                0 0 100px darkgreen;
+}
+
+#content {
+    margin-top: 150px;
+}
+
+#bgVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    
+
+}

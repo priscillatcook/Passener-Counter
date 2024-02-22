@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Passenger Counter App</title>
+  </head>
+  <video autoplay muted loop id="bgVideo">
+    <source src="station-vid.mp4" type="video/mp4" />
+  </video>
+  <body>
+    <div id="title">
+      <h1 id="title-msg">Passneger Counter App</h1>
+    </div>
+    <div id="content">
+      <h1 id="line-1">People entered:</h1>
+      <h2 id="count-el">0</h2>
+      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <button id="save-btn" onclick="save()">SAVE</button>
+      <p id="save-el">Previous entries:</p>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
